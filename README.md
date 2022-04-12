@@ -1,3 +1,10 @@
+This is a very lightly-modified fork with the following changes:
+
+- Don't run Babel
+- ES output
+
+---
+
 # Turf JSTS
 
 This is a treeshakend version of [JSTS](https://github.com/bjornharrtell/jsts) which only contains the subset of features require to work with Turf's modules that require JSTS (currently only `@turf/buffer`). The code is compiled to ES5 for compatibility with Turf.

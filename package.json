@@ -1,8 +1,9 @@
 {
-  "name": "@turf/jsts",
+  "name": "@placemarkio/turf-jsts",
   "description": "A JavaScript library of spatial predicates and functions for processing geometry",
-  "version": "2.7.1",
-  "main": "dist/jsts.min.js",
+  "version": "2.8.1",
+  "type": "module",
+  "module": "dist/jsts.es.js",
   "files": [
     "dist/jsts.min.js"
   ],
@@ -22,21 +23,15 @@
   ],
   "license": "(EDL-1.0 OR EPL-1.0)",
   "dependencies": {
-    "jsts": "2.7.1"
+    "jsts": "2.8.1"
   },
   "devDependencies": {
-    "@babel/preset-env": "7.15.6",
-    "@babel/core": "7.15.5",
-    "@rollup/plugin-babel": "5.3.0",
     "@rollup/plugin-node-resolve": "*",
-    "rollup": "*",
-    "rollup-plugin-buble": "*",
-    "rollup-plugin-terser": "*",
-    "rollup-plugin-uglify": "*"
+    "rollup": "*"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/turf/turf-jsts.git"
+    "url": "git://github.com/placemark/turf-jsts.git"
   },
   "scripts": {
     "build": "rollup -c rollup.config.js",
