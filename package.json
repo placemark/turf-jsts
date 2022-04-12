@@ -35,6 +35,6 @@
   },
   "scripts": {
     "build": "rollup -c rollup.config.js",
-    "test": "npm run build && node test/test.js"
+    "test": "npm run build && node test/test.mjs"
   }
 }

@@ -1,4 +1,4 @@
-const jsts = require("../dist/jsts.min");
+import * as jsts from "../dist/jsts.es.js"
 
 console.log("Ensuring JSTS has been built with the correct methods");
 console.assert(jsts !== undefined);
