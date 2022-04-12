@@ -22,10 +22,8 @@
     "Geometry"
   ],
   "license": "(EDL-1.0 OR EPL-1.0)",
-  "dependencies": {
-    "jsts": "2.8.1"
-  },
   "devDependencies": {
+    "jsts": "2.8.1",
     "@rollup/plugin-node-resolve": "*",
     "rollup": "*"
   },
