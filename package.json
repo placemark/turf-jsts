@@ -4,6 +4,8 @@
   "version": "2.8.1",
   "type": "module",
   "module": "dist/jsts.es.js",
+  "main": "dist/jsts.es.js",
+  "exports": "dist/jsts.es.js",
   "files": [
     "dist"
   ],
