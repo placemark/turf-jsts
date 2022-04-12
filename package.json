@@ -5,7 +5,7 @@
   "type": "module",
   "module": "dist/jsts.es.js",
   "files": [
-    "dist/jsts.min.js"
+    "dist"
   ],
   "author": "Björn Harrtell <bjorn@wololo.org>",
   "contributors": [
