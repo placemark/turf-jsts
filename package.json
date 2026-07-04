@@ -5,7 +5,12 @@
   "type": "module",
   "module": "dist/jsts.es.js",
   "main": "dist/jsts.es.js",
-  "exports": "dist/jsts.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/jsts.es.js",
+      "default": "./dist/jsts.es.js"
+    }
+  },
   "files": [
     "dist"
   ],
